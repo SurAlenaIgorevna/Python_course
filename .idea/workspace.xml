@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77b27c9e-3ec1-47a6-8f90-ba83c661b161" name="Default Changelist" comment="Сделала рефакторинг методов">
+    <list default="true" id="77b27c9e-3ec1-47a6-8f90-ba83c661b161" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Python_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -15,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python_course$Unittests_for_Login_test_1_UntitledTestCase.coverage" NAME="Unittests for Login_test_1.UntitledTestCase Coverage Results" MODIFIED="1547060604668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_course$Unittests_for_Test_Login_UntitledTestCase.coverage" NAME="Unittests for Test_Login.UntitledTestCase Coverage Results" MODIFIED="1547060631230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_course$pytest_for_Test_Login_UntitledTestCase_test_login.coverage" NAME="pytest for Test_Login.UntitledTestCase.test_login Coverage Results" MODIFIED="1549651566608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_course$Unittests_for_Test_Login_UntitledTestCase_test_untitled_test_case.coverage" NAME="Unittests for Test_Login.UntitledTestCase.test_untitled_test_case Coverage Results" MODIFIED="1549644766090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -22,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test_Login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+            <state relative-caret-position="261">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -90,7 +91,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for Test_Login.UntitledTestCase.test_untitled_test_case">
+  <component name="RunManager" selected="Python tests.pytest for Test_Login.UntitledTestCase.test_login">
     <configuration name="Unittests for Login_test_1.UntitledTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,13 +137,31 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for Test_Login.UntitledTestCase.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test_Login.UntitledTestCase.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.Unittests for Login_test_1.UntitledTestCase" />
       <item itemvalue="Python tests.Unittests for Test_Login.UntitledTestCase" />
       <item itemvalue="Python tests.Unittests for Test_Login.UntitledTestCase.test_untitled_test_case" />
+      <item itemvalue="Python tests.pytest for Test_Login.UntitledTestCase.test_login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for Test_Login.UntitledTestCase.test_login" />
         <item itemvalue="Python tests.Unittests for Test_Login.UntitledTestCase.test_untitled_test_case" />
         <item itemvalue="Python tests.Unittests for Test_Login.UntitledTestCase" />
         <item itemvalue="Python tests.Unittests for Login_test_1.UntitledTestCase" />
@@ -159,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545591027257</updated>
-      <workItem from="1549642740681" duration="1452000" />
+      <workItem from="1549642740681" duration="2215000" />
     </task>
     <task id="LOCAL-00001" summary="Дописала версию Питона">
       <created>1547059909315</created>
@@ -168,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547059909317</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Удалила и закомментила лишнее, ввела параметры логина и пароля.">
+      <created>1549644861325</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549644861325</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -199,9 +225,12 @@
     <history-entry file="Unittests_for_Test_Login_UntitledTestCase_test_untitled_test_case - 2019.02.08 at 19h 38m 16s.xml">
       <configuration name="Unittests for Test_Login.UntitledTestCase.test_untitled_test_case" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_Test_Login_UntitledTestCase_test_untitled_test_case - 2019.02.08 at 19h 52m 58s.xml">
+      <configuration name="Unittests for Test_Login.UntitledTestCase.test_untitled_test_case" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1452000" />
+    <option name="totallyTimeSpent" value="2215000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -245,7 +274,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Дописала версию Питона" />
     <MESSAGE value="Сделала рефакторинг методов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделала рефакторинг методов" />
+    <MESSAGE value="Удалила и закомментила лишнее, ввела параметры логина и пароля." />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалила и закомментила лишнее, ввела параметры логина и пароля." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Test Login.py" />
@@ -260,8 +290,8 @@
     <entry file="file://$PROJECT_DIR$/Login_test_1.py" />
     <entry file="file://$PROJECT_DIR$/Test_Login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+        <state relative-caret-position="261">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
