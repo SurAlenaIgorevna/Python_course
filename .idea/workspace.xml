@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77b27c9e-3ec1-47a6-8f90-ba83c661b161" name="Default Changelist" comment="Расположила элементы в правильном порядке.">
-      <change afterPath="$PROJECT_DIR$/Test_Login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5_step10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson5_step3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stepik_selenium_course" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stepik_selenium_course/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stepik_selenium_course/test_items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_3_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_lesson_3_2_13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_lesson_3_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson5_step10.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5_step10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,22 +31,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Stepik_selenium_course" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="23" />
+    <option name="x" value="47" />
+    <option name="y" value="30" />
     <option name="width" value="1204" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectId" id="1NNULmo1FRL5TRqI5CadU7AAYgm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -58,8 +70,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lesson1_5">
-    <configuration name="lesson1_5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.login">
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,7 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson1_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,28 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson5_step3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson5_step3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Main_page" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_lesson_3_2_13.MyTestCase" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,44 +101,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Main_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for Main_page" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Python_course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Main_page&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for Main_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="Python_course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Main_page&quot;" />
+      <option name="_new_target" value="&quot;test_lesson_3_2_13.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for Main_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_lesson_3_6.test_paramertization" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,14 +116,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Main_page&quot;" />
+      <option name="_new_target" value="&quot;test_lesson_3_6.test_paramertization&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for Test_Login.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_lesson_3_2_13.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Python_course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,27 +131,41 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Test_Login.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_lesson_3_2_13.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_lesson_3_6.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Python_course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_lesson_3_6.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.lesson5_step3" />
-      <item itemvalue="Python.lesson1_5" />
-      <item itemvalue="Python tests.Unittests for Main_page" />
-      <item itemvalue="Python tests.pytest for Main_page" />
-      <item itemvalue="Python tests.pytest for Test_Login.test_login" />
+      <item itemvalue="Python tests.pytest in test_lesson_3_2_13.py" />
+      <item itemvalue="Python tests.pytest for test_lesson_3_2_13.MyTestCase" />
+      <item itemvalue="Python tests.pytest in test_lesson_3_6.py" />
+      <item itemvalue="Python tests.pytest for test_lesson_3_6.test_paramertization" />
+      <item itemvalue="Python.login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lesson1_5" />
-        <item itemvalue="Python.lesson5_step3" />
-        <item itemvalue="Python tests.pytest for Test_Login.test_login" />
-        <item itemvalue="Python tests.pytest for Main_page" />
-        <item itemvalue="Python tests.pytest for Main_page" />
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python tests.pytest in test_lesson_3_6.py" />
+        <item itemvalue="Python tests.pytest for test_lesson_3_6.test_paramertization" />
+        <item itemvalue="Python tests.pytest in test_lesson_3_2_13.py" />
+        <item itemvalue="Python tests.pytest for test_lesson_3_2_13.MyTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -265,11 +238,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Дописала версию Питона" />
     <MESSAGE value="Сделала рефакторинг методов" />
     <MESSAGE value="Удалила и закомментила лишнее, ввела параметры логина и пароля." />
     <MESSAGE value="Расположила элементы в правильном порядке." />
-    <option name="LAST_COMMIT_MESSAGE" value="Расположила элементы в правильном порядке." />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="masterDetails">
     <states>
